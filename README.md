@@ -17,14 +17,14 @@ Le projet est organisé de la manière suivante :
 - /src : Ce répertoire contient le code source du projet, y compris les étapes de prétraitement et le modèle CNN MobileNetV2 pré-entraîné.
 - /results : Ce répertoire contient les résultats finaux au format CSV, obtenus à partir de la reconnaissance des fruits.
 
-  ## Configuration du cluster AWS EC2
+## Configuration du cluster AWS EC2
 
 Le cluster AWS EC2 est configuré avec les spécifications suivantes :
 
 - Nœud maître : Une instance EC2 avec une configuration adaptée aux besoins de gestion et de coordination du cluster.
 - Nœuds esclaves : Deux instances EC2 avec une configuration adaptée au traitement distribué des données.
 
-  ## Respect de la réglementation RGPD
+## Respect de la réglementation RGPD
 Les clés SSH utilisées pour accéder au serveur EC2 sont stockées en Europe pour se conformer au RGPD et garantir la protection des données personnelles.
 
 ## Remarque
