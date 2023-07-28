@@ -1,4 +1,4 @@
-# Projet Big Data - Reconnaissance de fruits sur AWS (Pyspark)
+# Projet big data - reconnaissance de fruits sur AWS (pyspark)
 
 Ce dépôt GitHub contient le code source et les ressources nécessaires pour le projet Big Data "Reconnaissance de fruits". L'application développée permet de sélectionner une photo contenant un fruit et de le reconnaître à l'aide d'un modèle de CNN (Convolutional Neural Network) basé sur le transfert learning de MobileNetV2 de Google. Le code est écrit en PySpark et s'exécute sur un cluster AWS EC2 avec un nœud maître et deux nœuds esclaves. De plus, les clés SSH utilisées pour se connecter au serveur se trouvent en Europe pour se conformer au RGPD (Règlement Général sur la Protection des Données).     
 II s'agit uniquement de la partie python CNN-L'application n'est pas finit et ce repo ne contient que la partie transfert learning avec spark sur aws.
@@ -27,8 +27,11 @@ Le cluster AWS EC2 est configuré avec les spécifications suivantes :
 ## Respect de la réglementation RGPD
 Les clés SSH utilisées pour accéder au serveur EC2 sont stockées en Europe pour se conformer au RGPD et garantir la protection des données personnelles.
 
-## Remarque
-Assurez-vous de bien comprendre les coûts associés à l'utilisation d'AWS EC2 avant de lancer le cluster. Veillez à bien arrêter ou supprimer les instances EC2 après utilisation pour éviter des frais inutiles.
+## Conclusion
+Nous montrons à travers ce projet les différentes étapes afin de déployer un modèle de machine learning dans le cloud.   
+
+******
+Ce projet fait partie de la formation data-scientist de CentraleSupélec & Openclassrooms (certificat bac+5)
 
 
 
